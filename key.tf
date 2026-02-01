@@ -1,0 +1,4 @@
+resource "aws_key_pair" "deployer" {
+  key_name   = "deployer-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDLpp1nYQXaw3h0QZ8mPTqG3QL5tOdLRxX4hh/y88x8TZ9AzO9MHGk8AhUEYcfdPMndLvU8n6M2dSbIV4WsdIDe0gXc7cHAp1ncn/ElemG/1uZGIRWm5/YqCLafsOD6NaBCx2i4VX/YisWXZOdl+9Fjziz5BihhRYDsjTxLhBbLWlU3/BnG2+rVy2wagyNTnH3ciFKk2DFlkmeRlWWfiIrThd06Gvlo+PN5OqEtGySYc5NL7VMZ3uki5eLCWODHP3v1HNDKj0Ia/f+J74KkMXNADINQX72tdh1oWrXV/PsP0T49BWNkzYdHrt8B6cNgNGjUuDdo1ZNDIPKD4TcBnWRDiJM4EIo/2qddfp3JeaaJFiaCi6UBgysrU0geuQXbn5a+5qxr0Ht3NwLL915gtz2ZsH7NbozGh1gBuUAFa/0Rb1fvdcuhpSa5R4cgwq67ev7pQ35KtAElVCEpRqsAJN9s24tQiQ929KbB+U2tHisDV9w17qnsz/pO3rlD33o64D0= root@amitserver-dev"
+}
